@@ -1,0 +1,20 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+
+#output1, #output2 {
+    white-space: pre-wrap; /* Allow wrapping of long words */
+    font-family: Arial, sans-serif; /* Change the font family as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+    padding: 10px; /* Add padding to the output div */
+    border: 1px solid #ccc; /* Add a border for better separation */
+    max-width: 50ch; /* Limit to 50 characters per line */
+    margin: 0 auto; /* Center the output horizontally */
+    text-align: center; /* Center the text within the div */
+}

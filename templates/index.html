@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Web App</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Hello, Web App!</h1>
+    <div id="output1"></div>
+    <div id="output2"></div>
+    <!-- Add an edit button that is initially hidden -->
+    <button id="editButton" style="display: none;">Edit</button>
+     <!-- Add an input field for editing text -->
+     <input type="text" id="editInput" style="display: none;">
+    <textarea id="input" rows="4" cols="50"></textarea>
+    <button id="processButton">Process</button>
+    <form id="audioForm" enctype="multipart/form-data">
+        <input type="file" id="audioFile" accept=".wav, .mp3" />
+        <button type="button" id="uploadButton">Upload Audio</button>
+    </form>
+    <script src="static/script.js"></script>
+</body>
+</html>
